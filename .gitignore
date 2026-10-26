@@ -1,0 +1,27 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.credentials*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+# Experiment outputs and downloaded assets
+runs/
+data/
+checkpoints/
+third_party/
+*.sqlite
+*.db
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

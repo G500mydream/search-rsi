@@ -1,0 +1,7 @@
+status = "implemented"
+agent = "toy_fixed"
+fixture = "../examples/toy/tasks.json"
+
+[budget]
+max_search_calls = 1
+max_open_calls = 1

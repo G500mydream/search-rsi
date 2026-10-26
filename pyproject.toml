@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "search-rsi"
+version = "0.1.0"
+description = "Controlled experiments for search agents learning from interaction"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+api = ["openai>=1.0"]
+
+[project.scripts]
+search-rsi = "search_rsi.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

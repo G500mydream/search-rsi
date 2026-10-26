@@ -1,0 +1,44 @@
+{
+  "description": "Handwritten fictional data for an offline wiring check; not research evaluation.",
+  "documents": [
+    {
+      "id": "d1",
+      "title": "Lumen release notes",
+      "text": "Lumen introduced delta export in version 2.4.\nAnswer: 2.4"
+    },
+    {
+      "id": "d2",
+      "title": "Cedar archive guide",
+      "text": "The Cedar archive checksum format is SHA-256.\nAnswer: SHA-256"
+    },
+    {
+      "id": "d3",
+      "title": "Harbor office directory",
+      "text": "The Harbor office is located in Northport.\nAnswer: Northport"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "question": "Which Lumen version introduced delta export?"
+    },
+    {
+      "id": "t2",
+      "question": "What is the Cedar archive checksum format?"
+    }
+  ],
+  "labels": {
+    "t1": {
+      "answer": "2.4",
+      "evidence_ids": [
+        "d1"
+      ]
+    },
+    "t2": {
+      "answer": "SHA-256",
+      "evidence_ids": [
+        "d2"
+      ]
+    }
+  }
+}

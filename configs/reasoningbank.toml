@@ -1,0 +1,7 @@
+# Research configuration template. Not executable yet.
+status = "planned"
+method = "reasoningbank"
+environment = "browsecomp_plus"
+model = "UNSET"
+# Set corpus/retriever revision, task splits, tool budgets and feedback policy
+# before enabling this configuration. See docs/EXPERIMENT_PROTOCOL.md.
